@@ -34,7 +34,7 @@ print(layer0.get_weights())
 print('Done')
 
 # Creating a slightly complex neural network: 3 input features, dense fully connected hidden layer with 2 neurons
-# and 1 output layer with a single unit
+# and 1 output layer with a single unit, it would also give correct result but w's and b's wouldnt match linearly
 # hiddenLayer = tf.keras.layers.Dense(units=2, input_shape=[3])
 # outputLayer = tf.keras.layers.Dense(units=1)
 # model = tf.keras.Sequential([hiddenLayer, outputLayer])
